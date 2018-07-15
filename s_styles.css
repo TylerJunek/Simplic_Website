@@ -48,3 +48,8 @@ h1 {
     text-align: center;
 }
 
+html {
+    background-color: #ff3333;
+    border: 8px black;
+    border-style: ridge;
+}
