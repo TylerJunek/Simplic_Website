@@ -43,5 +43,8 @@
 				</ul>
 			</div>
 
+			<p> Welcome to Simplic! Add description here. </p>
+			
+			
         </body>
     </html>
