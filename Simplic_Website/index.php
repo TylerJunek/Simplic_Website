@@ -1,5 +1,5 @@
 <?php require_once('header.php') ?>
-<div class="jumbotron serverIMG">
+<div class="serverIMG">
     <h1> Welcome to Simplic! </h1>
 </div>
 <p> Simplic is a server meant to allow players to have an Practice crossed Early HG environment in a respectful,
