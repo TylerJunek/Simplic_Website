@@ -1,4 +1,3 @@
-<!DOCTYPE html>
             <footer>
                 <div class="container">
                     <nav class="navbar-fixed-bottom navbar-inverse">
