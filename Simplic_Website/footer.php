@@ -3,7 +3,7 @@
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.php"> Simplic </a>
                         </div>
-                        <ul class="unstyled navbar navbar-nav navbarft">
+                        <ul class="navbar navbar-nav navbarft">
                             <li class="active"> <a href="#"> # </a> </li>
                             <li> <a href="#"> # </a> <li>
                             <li> <a href="#"> # </a> <li>

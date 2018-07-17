@@ -57,3 +57,26 @@ li {
     margin-right: 8px;
     margin-bottom: 12px;
 }
+<<<<<<< HEAD
+=======
+=======
+.serverIMG {
+    background-image: url(img/minecraft_screenshot1.png);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-position: center;
+}
+
+.custom-navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+@media (min-width: 768px)
+.custom-navbar {
+    border-radius: 4px;
+}
+>>>>>>> 9be2fd4e5b08cad20d44ad023a3d65b55bd43f6c
+>>>>>>> 4011ea643c09c4446e16659a06c5f75bc9427100
