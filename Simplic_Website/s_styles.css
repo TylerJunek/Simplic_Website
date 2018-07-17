@@ -14,9 +14,8 @@
     display: inline-block;
 }
 
-.dropdown content {
-    display: none;
-    position: absolute;
+.box {
+    background: #1e1e1e;
 }
 
 .dropdown-content a {
@@ -40,18 +39,4 @@
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
-}
-
-h1 { 
-    font-size: 24px;
-    flood-color: red; 
-    border: 3px black;
-    border-style: double;
-    text-align: center;
-}
-
-html {
-    background-color: #ff3333;
-    border: 8px black;
-    border-style: ridge;
 }
