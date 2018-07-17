@@ -49,5 +49,11 @@
 }
 
 .ulft {
-    display: inline-block;
+    display: inline;
+}
+
+li {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 12px;
 }
