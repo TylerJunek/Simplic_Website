@@ -55,3 +55,5 @@
                     </li> 
                 </ul>       
                         
+            <h2> Minecraft Server Rules </h2>
+            
