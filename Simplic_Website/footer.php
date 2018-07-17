@@ -1,15 +1,13 @@
-            <footer>
-                    <nav class="nav navbar-nav navbar-inverse navbarft">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="index.php"> Simplic </a>
-                        </div>
-                        <ul class="navbar navbar-nav navbarft">
-                            <li class="active list-unstyled float-left"> <a href="#"> # </a> </li>
-                            <li class="list-unstyled"> <a href="#"> # </a> </li>
-                            <li class="list-unstyled"> <a href="#"> # </a> </li>
-                            <li class="list-unstyled"> <a href="#"> # </a> </li>
-                        </ul>
-                    </nav>
-            </footer>
-        </body>
-    </html>
+<footer>
+    <div class="custom-container">
+        <span class="divider"></span>
+        <div class="links">
+            <a class="link" href="index.php">Home</a> | 
+            <a class="link" href="index.php">Home</a> | 
+            <a class="link" href="index.php">Home</a> | 
+            <a class="link" href="index.php">Home</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
