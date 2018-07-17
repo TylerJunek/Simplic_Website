@@ -51,3 +51,7 @@
 .ulft {
     display: inline-block;
 }
+
+.serverIMG {
+    background-image: url(img/minecraft_screenshot1.png);
+}
