@@ -1,5 +1,4 @@
             <footer>
-                <div class="container">
                     <nav class="navbar navbar-inverse navbarft">
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.php"> Simplic </a>
@@ -10,7 +9,6 @@
                             <li> <a href="#"> # </a> <li>
                             <li> <a href="#"> # </a> <li>
                     </nav>
-                </div>
             </footer>
         </body>
     </html>
