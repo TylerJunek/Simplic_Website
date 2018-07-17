@@ -1,6 +1,6 @@
             <footer>
                 <div class="container">
-                    <nav class="navbar navbar-inverse navbarft">
+                    <nav class="navbar-fixed-bottom navbar-inverse">
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.php"> Simplic </a>
                         </div>
