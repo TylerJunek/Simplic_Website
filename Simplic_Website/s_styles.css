@@ -70,13 +70,9 @@ li {
     min-height: 50px;
     margin-bottom: 0px;
     border: 1px solid transparent;
-<<<<<<< HEAD
 }
 
 @media (min-width: 768px)
 .custom-navbar {
     border-radius: 4px;
 }
-=======
-}
->>>>>>> 90b5093a6522ee801a319fb3fe11994c3d146367
