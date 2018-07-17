@@ -14,13 +14,10 @@
     display: inline-block;
 }
 
-<<<<<<< HEAD
 .box {
     background: #1e1e1e;
 }
 
-=======
->>>>>>> 8f0dd2aad739a8b2561e582be6d7aad6df992c39
 .dropdown-content a {
     color: black;
     padding: 16px, 12px;
@@ -42,27 +39,11 @@
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
-<<<<<<< HEAD
-=======
 }
 
-h1 { 
-    font-size: 24px;
-    flood-color: red; 
-    border: 3px black;
-    border-style: double;
-    text-align: center;
-}
-
-html {
-    background-color: #ff3333;
-    border: 8px black;
-    border-style: ridge;
-}
 .navbarft {
     position: fixed;
     bottom: 0%;
     overflow: hidden;
     width: 100%
->>>>>>> 8f0dd2aad739a8b2561e582be6d7aad6df992c39
 }
