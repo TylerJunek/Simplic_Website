@@ -49,9 +49,16 @@
 }
 
 .ulft {
-    display: inline-block;
+    display: inline;
 }
 
+<<<<<<< HEAD
+li {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+=======
 .serverIMG {
     background-image: url(img/minecraft_screenshot1.png);
     padding-bottom: 50px;
@@ -70,3 +77,4 @@
 .custom-navbar {
     border-radius: 4px;
 }
+>>>>>>> 9be2fd4e5b08cad20d44ad023a3d65b55bd43f6c
