@@ -50,3 +50,9 @@ html {
     border: 8px black;
     border-style: ridge;
 }
+.navbarft {
+    position: fixed;
+    bottom: 0%;
+    overflow: hidden;
+    width: 100%
+}
