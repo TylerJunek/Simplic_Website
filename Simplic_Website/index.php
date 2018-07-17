@@ -1,4 +1,5 @@
 <?php require_once('header.php') ?>
+<?php require_once('header.php') ?>
     <h1> Welcome to Simplic! </h1>
         <p> Simplic is a server meant to allow players to have a practice environment crossed with an Early HG environment
         in a respectful, friendly atmosphere. The server is custom coded and able to flip on the dime to allow players to

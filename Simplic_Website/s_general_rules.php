@@ -53,4 +53,5 @@
                     <li> By playing on our servers, you are agreeing that you have not only read but will follow all rules
                     for the site and whatever servers you play on. If you do not follow the rules you may be punished. 
                     </li> 
+                </ul>       
                         
