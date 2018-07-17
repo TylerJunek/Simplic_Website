@@ -1,8 +1,4 @@
-<!DOCTYPE html> 
-    <html lang="en-US">
-    <link rel="stylesheet" href="s_styles.css">
-    <?php require_once('header.php') ?>
-    <?php require_once('footer.php') ?>
+<?php require_once('header.php') ?>
         <h1> General Rules </h2>
             <h2> Community and Staff </h2>
                 <ul class="rules">
@@ -46,3 +42,5 @@
                     <li> By playing on our servers, you are agreeing that you have not only read but will follow all rules
                     for the site and whatever servers you play on. If you do not follow the rules you may be punished. </li> 
                     <li> 
+                        
+<?php require_once('footer.php') ?>
