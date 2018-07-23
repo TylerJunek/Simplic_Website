@@ -1,13 +1,13 @@
 <?php 
-require_once("database/dbh.php");
-require_once('header.php'); ?>
+require("database/dbh.php");
+require('header.php'); ?>
     <div class="custom-container topic">
         <div class="col-md-12 section">
             <h1> General Rules </h1>
             <h2> Community and Staff </h2>
             <ul class="rules">
                     <li> <p>Be respectful to everyone. This may be a server made for fighting, but have some honor and
-                    respect. Everytones here to have a good time, including you!</p>
+                    respect. Everyone's here to have a good time, including you!</p>
                     </li>
                     <li> <p>Be respectful to staff and moderators, especially since they do have the power to ban you from
                     servers or even the site. They're there to make sure everything is running properly and everyong is having
@@ -58,7 +58,7 @@ require_once('header.php'); ?>
                     </li> 
                 </ul>       
                         
-            <h2> Minecraft Server Rules </h2>
+            <!-- <h2> Minecraft Server Rules </h2> -->
         </div>
     </div>
             

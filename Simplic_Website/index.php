@@ -1,6 +1,6 @@
 <?php 
 require("database/dbh.php");
-require_once('header.php');
+require('header.php');
 ?>
     <div class="custom-container topic">
         <div class="col-md-8 section">
@@ -16,4 +16,4 @@ require_once('header.php');
             Hope you enjoy :D
         </p>
     </div>
-<?php require_once('footer.php') ?>
+<?php require('footer.php') ?>

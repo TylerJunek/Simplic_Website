@@ -43,7 +43,7 @@
 
 .custom-navbar {
     border-bottom: 7px solid #737373;
-    border-radius: 0px;
+    border-radius: 0px !important;
 }
 
 .nav-items {
@@ -53,11 +53,12 @@
 }
 
 .nav-items .item a {
+    text-align: center;
     padding: 15px 40px;
 }
 
-.links {
-    text-decoration: none;
+.nav-items .inline {
+    display: inline-block;
 }
 
 footer .custom-container {
@@ -75,7 +76,7 @@ footer .custom-container {
 }
 
 .header {
-    background-color: #ff6666;
+    background-color: #800000;
     width: 100%;
     font-family: "LitSans";
 }
@@ -84,10 +85,35 @@ footer .custom-container {
     margin: 20px 0px;
     color: white;
     font-family: "LitSans";
+    display: inline-block;
+}
+
+.panel-section {
+}
+
+.custom-panel {
+
+}
+
+.custom-panel .header {
+    background-color: #ff9999;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.custom-panel .contents {
+    font-family: "Lunchtype";
+    background-color: white;
+    padding: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: #ff9999;
+    border: 1px solid #ff9999;
 }
 
 .custom-container .links {
-    text-align: left;
+    
 }
 
 .custom-container .login {
@@ -165,9 +191,9 @@ footer .custom-container {
 
 .imageLogo {
     content:url(/img/ServerLogo.png);
-    width: 40px;
     height: 40px;
     margin: 5px 10px;
+    display: inline-block;
 }
 
 .login-fields{
@@ -180,6 +206,281 @@ footer .custom-container {
     font-weight: 600;
 }
 
+.copy-text {
+    background-color: #cc0000;
+    height: 100%;
+    border: 2px solid #cc0000;
+    border-radius: 2px;
+    transition: background-color 1s;
+}
+
+.copy-text:hover {
+    background-color: #ff3333;
+    height: 100%;
+    border: 2px solid #ff3333;
+    border-radius: 2px;
+}
+
+.read-only_text:read-only {
+    background-color: #d9d9d9;
+    text-align: center;
+    border: 2px solid #262626;
+    border-radius: 2px;
+    cursor: not-allowed;
+}
+
+.links {
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+
+.link {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.footer-socials {
+    text-align: center;
+}
+
+.footer-socials a {
+    margin: 0px 15px;
+    height: auto;
+}
+
+.footer-socials .fa-twitter {
+    font-size: 200%;
+    color: skyblue;
+}
+
+.footer-socials .fa-shopping-cart {
+    font-size: 200%;
+    color: lightcoral;
+}
+
+.footer-socials .fa-envelope {
+    font-size: 200%;
+    color: #6666ff;
+}
+
+.error-message {
+    background-color: #ff9999;
+    margin: 10px 0px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #cc0000;
+    border-radius: 4px;
+    font-family: LitSans;
+}
+
+.searched-player_section {
+    width: 24%;
+    margin-right: 15px;
+    padding: 0px;
+    float: left;
+}
+
+.searched-player_header {
+    font-family: LitSans;
+    font-size: 139%;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    background-color: #b31aff;
+    border: 5px solid #d580ff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.content-splitter {
+    width: 50%;
+    float: left;
+}
+
+.searched-player_contents_contents {
+    font-family: LunchType;
+}
+
+.searched-player_contents_contents .sub-contents .boolean-content {
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px 15px;
+}
+
+.searched-player_contents_contents .sub-contents .title {
+    padding: 10px;
+}
+
+.searched-player_contents_contents .sub-contents .true-bool {
+    background-color: greenyellow;
+    border: 2px solid #006600;
+}
+
+.searched-player_contents_contents .sub-contents .false-bool {
+    background-color: indianred;
+    border: 2px solid #800000;
+    color: white;
+}
+
+.searched-player_contents_contents .sub-contents {
+    overflow: auto;
+}
+
+.searched-player_image-container {
+    margin:  auto;
+    width: 100%;
+    padding: 24px 73px;
+    background-color: #dddddd;
+}
+
+
+.searched-player_image {
+    margin: 0px !important;
+    width: 100% !important;
+}
+.searched-player_div_image {
+    margin:  auto;
+    width: 100%;
+    padding: 24px 73px;
+}
+
+.searched-player_contents {
+    width: 33%;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    float: left;
+}
+
+.searched-player_contents_header {
+    padding:  10px 15px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    color: white;
+}
+
+.searched-player_error-message {
+    background-color: #ff9999;
+    font-size: 200%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #cc0000;
+    border-radius: 4px;
+    font-family: LitSans;
+}
+
+.dueltype {
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1
+}
+
+.stretch {
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0
+}
+
+.selecting_sword_png {
+    width: 60% !important;
+    margin: 0 !important;
+    margin-left: auto !important;
+    display: block !important;
+    margin-right: auto !important;
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+.duelText {
+    text-align: center;
+    padding: 15px;
+    font-family: LitSans;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.rankings {
+    padding: 15px 10px;
+    
+}
+
+.rankings p {
+    margin: auto 0px;
+}
+
+.leaderboard-heads {
+    width: 28.3px !important;
+    margin: 0px !important;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.stats_sword_png {
+    width: 150px !important;
+    margin: 0 !important;
+    margin-left: auto !important;
+    display: block !important;
+    margin-right: auto !important;
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+}
+
+.searched-player_contents_contents .divider {
+    margin: 10px auto !important;
+    width: 80%;
+    border-width: 1px;
+}
+
+.logged_in {
+    padding: 15px 40px;
+    color: #9d9d9d;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    position: relative;
+    display: block;
+    background: transparent;
+}
+
+.rotation-nintey {
+    transform: rotateZ(90deg);
+    transition: transform 0.5s;
+}
+
+.rotate-transition {
+    padding: 0px !important;
+}
+
+.rotate-transition:active .rotation-nintey {
+    transform: rotateZ(0deg);
+    transition: transform 0.5s;
+}
+
+.even-spaced-container {
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block !important;
+}
+
+.nav .form-group {
+    display: inline-block !important;
+}
+
+.nav .form-group .form-control {
+    display: inline-block !important;
+}
+
+.dropdown-menu {
+    width: 100% !important;
+}
+
 @font-face {
     font-family: "Lunchtype";
     src: url("/fonts/Lunchtype22-Medium.ttf");
@@ -187,5 +488,5 @@ footer .custom-container {
 
 @font-face {
     font-family: "LitSans";
-    src: url("/fonts/LitSans-Medium.ttf");
+    src: url("/fonts/LitSans-Medium.otf");
 }
