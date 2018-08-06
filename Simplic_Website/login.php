@@ -21,11 +21,18 @@ require('header.php');
                         <div class="error-message">Incorrect password</div>
                         <?php 
                         } 
+                        if (isset($_GET['reset'])&&$_GET['reset']=='true') { 
                         ?>
+                        <div class="success-message">Password successfully reset</div>
+                        <?php 
+                        } 
+                        ?>
+                        
                         <div class="login-descriptor">Username</div>
                         <input type="text" class="form-control login-fields" placeholder="Minecraft Username" name="user">
                         <div class="login-descriptor">Pasword</div>
                         <input type="password" class="form-control login-fields" placeholder="Password" name="pass">
+                        <input type="hidden" name="url" value="<?php echo $_GET['url']; ?>">
                     </div>
                     <button type="submit" name="log" class="btn btn-default">Login</button>
                 </form>

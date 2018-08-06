@@ -87,18 +87,18 @@ session_start();
                             <a class="dropdown-toggle rotate-transition" data-toggle="dropdown" href="#" aria-expanded="false"><div class="logged_in"><?php echo $_SESSION['Player']; ?>
                                 <span class="caret rotation-nintey" id="rotate"></span></div></a>
                             <ul class="dropdown-menu">
-                                <li><a href="loginsystem/logging-out.php?url=<?php echo "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; ?>">Log out</a></li>
+                                <li><a href="loginsystem/logging-out.php?url=<?php echo "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].(isset($_SERVER['QUERY_STRING']) ? "?".$_SERVER['QUERY_STRING'] : ""); ?>">Log out</a></li>
                             </ul>
                         </li>
                         <?php
                         } else {
                             if ($_SERVER['PHP_SELF'] == "/login.php") { 
                         ?>
-                        <li class="active item inline"><a href="login.php">Login</a></li>
+                        <li class="active item inline"><a href="login.php?url=<?php echo $_GET['url']; ?>">Login</a></li>
                         <?php 
                             } else {
                         ?>  
-                        <li class="item inline"><a href="login.php">Login</a></li>
+                        <li class="item inline"><a href="login.php?url=<?php echo "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].(isset($_SERVER['QUERY_STRING']) && $_SERVER['QUERY_STRING'] !== "" ? "?".$_SERVER['QUERY_STRING'] : ""); ?>">Login</a></li>
                         <?php 
                             }
                             if ($_SERVER['PHP_SELF'] == "/register.php") { 

@@ -19,7 +19,8 @@ if (isset($_POST['log'])){
                 } else {
                     $_SESSION['Online'] = true;
                 }
-                header('Location: ../index.php');
+                header("Location: ".$_POST['url']);
+                die();
             } else {
                 header('Location: ../login.php?valid=false');
                 die();
@@ -27,7 +28,6 @@ if (isset($_POST['log'])){
         }
     }
 } else {
-    die("Failed");
     header('Location: ../index.php');
     die();
 

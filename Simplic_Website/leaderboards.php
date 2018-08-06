@@ -125,11 +125,11 @@ if (isset($_GET['type'])){
             $ratio = $conn->query("SELECT * FROM stats".$type." ORDER BY Ratio DESC");
             $rank = 1;
             while($row = mysqli_fetch_array($ratio)) {
+                echo "<div class='rankings'><img src='https://crafatar.com/avatars/".$row['UUID']."' class='leaderboard-heads'><div style='display: inline-block; margin-left: 5px;'><div style='width: 150px; display: inline-block;";
                 if (isset($_SESSION['UUID'])&& strcmp($_SESSION['UUID'],$row['UUID']) === 0){
-                    echo "<div class='rankings'><img src='https://crafatar.com/avatars/".$row['UUID']."' class='leaderboard-heads'><div style='display: inline-block; margin-left: 5px;'><div style='width: 150px; display: inline-block; color: blue;'>#".$rank++." ".$row['Player']."</div> <div style='margin-left: 25px; display: inline-block;'><p style='display: inline-block;padding: 0px;'>".$row['Ratio']."</p></div></div></div>";
-                } else {
-                    echo "<div class='rankings'><img src='https://crafatar.com/avatars/".$row['UUID']."' class='leaderboard-heads'><div style='display: inline-block; margin-left: 5px;'><div style='width: 150px; display: inline-block;'>#".$rank++." ".$row['Player']."</div> <div style='margin-left: 25px; display: inline-block;'><p style='display: inline-block;padding: 0px;'>".round($row['Ratio'], 2, PHP_ROUND_HALF_UP)."</p></div></div></div>";
+                    echo "color: blue;";
                 }
+                echo "'>#".$rank++." ".$row['Player']."</div> <div style='margin-left: 25px; display: inline-block;'><p style='display: inline-block;padding: 0px;'>".round($row['Ratio'], 2, PHP_ROUND_HALF_UP)."</p></div></div></div>";
                 if ($rank > 10){
                     unset($rank);
                     break;
